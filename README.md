@@ -40,3 +40,53 @@ When a user enables the Signematic Chrome extension, it converts the speech in t
 - **Social Media Integration**: We plan to implement our solution for popular social media platforms like Instagram, enabling creators to easily add sign language features without hassle.
 - **Gesture Animation Enhancement**: We aim to improve the smoothness of the animations by slowing down the training videos and applying a smoothing effect to the movement of points and lines.
 - **Language Expansion**: Currently utilizing ASL, we hope to expand our project to include other sign languages, such as BSL, in the future.
+### Virtual Environment Setup
+
+#### Using venv (Python's built-in virtual environment)
+```bash
+# Create a virtual environment
+python3 -m venv venv
+
+# Activate the virtual environment
+# On macOS/Linux:
+source venv/bin/activate
+# On Windows:
+venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+#### Using Conda
+```bash
+# Create a new conda environment
+conda create -n video-transcription python=3.11
+
+# Activate the environment
+conda activate video-transcription
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Optional: Install additional conda-specific packages if needed
+conda install ffmpeg
+```
+### System Dependencies
+- **FFmpeg**: Required for audio/video processing
+  - macOS: `brew install ffmpeg`
+  - Ubuntu/Debian: `sudo apt-get install ffmpeg`
+  - Windows: Download from [FFmpeg official site](https://ffmpeg.org/download.html)
+## 🚀 Usage
+
+1. Start the Ollama server:
+```bash
+ollama serve
+```
+
+2. Run the application:
+```bash
+streamlit run main.py
+```
+
+3. Access the web interface at `http://localhost:8501`
+
