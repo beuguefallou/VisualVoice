@@ -1,4 +1,4 @@
-# VisualVoice
+# Signematic
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Node.js](https://img.shields.io/badge/Node.js-14%2B-green)
@@ -8,11 +8,11 @@
 
 ## About This Project
 
-**VisualVoice** aims to provide live sign language transcription for videos and movies using advanced machine-learning algorithms and gesture models. Our solution ensures that the deaf and hard-of-hearing community can enjoy a seamless viewing experience with accurate and real-time sign language interpretation.
+**Signematic** aims to provide live sign language transcription for videos and movies using advanced machine-learning algorithms and gesture models. Our solution ensures that the deaf and hard-of-hearing community can enjoy a seamless viewing experience with accurate and real-time sign language interpretation.
 
 ## How We Built It
 
-VisualVoice was developed using a combination of cutting-edge technologies:
+Signematic was developed using a combination of cutting-edge technologies:
 
 - **Web Scraping**: Utilized Beautiful Soup to extract relevant sign language videos from the web.
 - **Three.js**: Implemented for creating dynamic and realistic hand skeleton animations.
@@ -22,7 +22,7 @@ VisualVoice was developed using a combination of cutting-edge technologies:
 
 ### Chrome Extension & Adobe Add-On
 
-When a user enables the VisualVoice Chrome extension, it converts the speech in the video to text using a robust speech recognition engine. This text is processed by a web scraper that uses ASL grammar rules to search for videos depicting the corresponding signs. These videos are stitched together into a cohesive sign language interpretation overlay, providing a synchronized viewing experience. Additionally, VisualVoice is available as an Adobe add-on, enabling content creators to auto-generate sign language subtitles for their videos.
+When a user enables the Signematic Chrome extension, it converts the speech in the video to text using a robust speech recognition engine. This text is processed by a web scraper that uses ASL grammar rules to search for videos depicting the corresponding signs. These videos are stitched together into a cohesive sign language interpretation overlay, providing a synchronized viewing experience. Additionally, Signematic is available as an Adobe add-on, enabling content creators to auto-generate sign language subtitles for their videos.
 
 ## Challenges Faced
 

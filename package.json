@@ -1,0 +1,23 @@
+{
+  "name": "visualvoice",
+  "version": "1.0.0",
+  "description": "![Python](https://img.shields.io/badge/Python-3.8%2B-blue)\r ![Node.js](https://img.shields.io/badge/Node.js-14%2B-green)\r ![Three.js](https://img.shields.io/badge/Three.js-0.126.0-lightgrey)\r ![Chrome](https://img.shields.io/badge/Chrome_Extension-v1.0-orange)\r ![Adobe Express](https://img.shields.io/badge/Adobe_Express-Integration-yellow)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beuguefallou/VisualVoice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beuguefallou/VisualVoice/issues"
+  },
+  "homepage": "https://github.com/beuguefallou/VisualVoice#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
